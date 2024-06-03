@@ -1,0 +1,215 @@
+@font-face {
+    font-family: open_sans;
+    src: url(fonts/opne_sans/static/OpenSans-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.parent_div {
+    display: flex;
+}
+
+.left_div {
+   width: 469px;
+   height: 832px;
+}
+
+.right_div {
+    width: 340px;
+    height: 372px;
+    margin-left: 340px;
+    margin-top: 230px;
+}
+
+h4 {
+    font-family: open_sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    margin: 0;
+}
+
+.paragraph {
+    font-family: open_sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6B7280;
+    margin: 0;
+}
+
+.button_div{
+    display: flex;
+}
+
+.sing_in_button {
+    background-color: #4285F4;
+    width: 281px;
+    height:48px ;
+    border: none;
+    border-radius: 4px;
+    background-position: 2px;
+    background-repeat: no-repeat;
+    background-image: url(gmail_icon.png)
+}
+
+.gmail_icon {
+    background-image: url(gmail_icon.png);
+    background-repeat: no-repeat;
+    width: 43px;
+    height: 43px;
+    align-items: self-start;
+}
+
+.button_div {
+    margin-top: 36px;
+}
+
+.button_paragraph {
+    font-family: open_sans;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-left: 40px;
+    margin-top: 11px;
+}
+
+.fb_icon_div {
+    margin-left: 14px;
+    
+}
+
+.fb_icon {
+    border-radius: 2px, 0px, 0px, 2px
+}
+
+.horizontal_line {
+    color: #E5E7EB;
+    width: 340px;
+    height: 1px;
+    margin-top: 22px;
+}
+
+.input_email {
+    width: 340px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #E5E7EB;
+    margin-top: 22px;
+}
+
+.input_email::placeholder{
+    color: #D1D5DB;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    padding-left: 40px;
+    background-image: url(input_icon.png);
+    background-repeat: no-repeat;
+    padding-top: 16px;
+}
+
+.forget_password {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px;
+}
+
+.a {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6D58BA;
+  
+}
+
+.continue_button {
+    width: 340px;
+    height: 48px;
+    background-color: #724DFF;
+    border-radius: 6px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.last_paragraph {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    color: #6B7280;
+    margin-top: 24px
+}
+
+.anchor {
+    font-family: open_sans;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6D58BA;
+}
+
+
+@media screen  and (max-width:600px) {
+    .right_div {
+        width: 312px;
+        height: 363px;
+    }
+
+    h4 {
+        font-family: open_sans;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27.24px;
+        text-align: center;
+        color:#1F2937;
+    }
+
+    .paragraph {
+        font-family: open_sans;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        color:#6B7280;
+    }
+
+    .sing_in_button {
+        width:253px;
+        height:48px;
+    }
+
+    .fb_icon {
+        border-radius: 50% !important;
+    }
+
+    .input_email {
+        width: 312px;
+        height: 48px;
+        border-radius: 50px;
+    }
+
+    .continue_button {
+        width: 121px;
+        height: 48px;
+        color: #724DFF;
+        font-family: open_sans;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+    }
+}
